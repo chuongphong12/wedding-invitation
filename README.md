@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wedding Invitation Website
+
+A modern, responsive wedding invitation website built with Next.js and Tailwind CSS. This project provides a beautiful and interactive way to share wedding details with guests.
+
+## Features
+
+- 🎨 Modern and responsive design
+- 🌙 Dark mode support
+- 📱 Mobile-first approach
+- ⚡ Fast page loads with Next.js
+- 🎯 SEO optimized
+- 🎭 Beautiful typography with Geist font
+- 🖼️ Optimized image loading
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) - React framework for production
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
+- [Geist Font](https://vercel.com/font) - Modern typeface by Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18.0 or later
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <your-repository-url>
+cd wedding-invitation
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+wedding-invitation/
+├── app/                # Next.js app directory
+│   ├── page.tsx       # Main page component
+│   └── layout.tsx     # Root layout component
+├── public/            # Static assets
+├── styles/           # Global styles
+└── components/       # React components
+```
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+To customize the wedding invitation:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Update the content in `app/page.tsx`
+2. Modify styles using Tailwind CSS classes
+3. Replace images in the `public` directory
+4. Update fonts and colors in the Tailwind configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+This project can be easily deployed on [Vercel](https://vercel.com):
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/wedding-invitation)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Built with [Create Next App](https://nextjs.org/docs/api-reference/create-next-app)
+- Icons and assets from [Vercel](https://vercel.com)
+- Fonts by [Geist](https://vercel.com/font)
